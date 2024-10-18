@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
