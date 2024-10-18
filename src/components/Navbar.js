@@ -39,21 +39,21 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter('work', 'Hard')}
             onMouseLeave={() => handleMouseLeave('work', 'Work')}
           >
-            <a href="#">{hoverText.work}</a>
+            <a href="#work">{hoverText.work}</a>
           </li>
           <li
             className="nav-item"
             onMouseEnter={() => handleMouseEnter('studios', 'Play Harder')}
             onMouseLeave={() => handleMouseLeave('studios', 'Studios')}
           >
-            <a href="#">{hoverText.studios}</a>
+            <a href="#work">{hoverText.studios}</a>
           </li>
           <li
             className="nav-item"
             onMouseEnter={() => handleMouseEnter('recognition', 'Yeah!')}
             onMouseLeave={() => handleMouseLeave('recognition', 'Recognition')}
           >
-            <a href="#">{hoverText.recognition}</a>
+            <a href="#work">{hoverText.recognition}</a>
           </li>
         </ul>
       </nav>
